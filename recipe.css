@@ -1,0 +1,154 @@
+
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8ba1bb;
+    font-family:Arial;
+    margin:0;
+}
+
+p.category {
+    background-color: black;
+color:white;
+/*text-align: center;*/
+display:inline-block;
+margin:-15px 30px 0px 30px;
+padding: 10px 20px;
+font-weight:bold;
+font-size: 16px;
+
+}
+
+.center { 
+    text-align: center;
+width: 100%;
+}
+
+div.category {
+    text-align: center;
+    margin-bottom: -11px;
+    overflow: visible;
+    
+}
+
+div.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,.15);
+    overflow: visible;
+}
+
+
+p.description {
+    /*text-align: center;*/
+    max-width: 330px;
+    display: inline-block;
+    font-size: 16px;   
+}
+
+div.seperator {
+    text-align: center;
+    height:1px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+div.info {
+    position:relative;
+    }
+
+table.info {
+    position:absolute;
+     bottom: 0px;
+     width:100%;
+     color: white;
+     background-color: #6c829dc0;
+     height:80px;
+}
+
+table.info td {
+    text-align: center;
+    vertical-align: top;
+}
+
+table.info th{
+    vertical-align: bottom;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+img.info {
+    display:block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+div.col {
+    width: 45%;
+    margin-top: 20px
+}
+div.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c8290;
+    padding-bottom: 5px;
+}
+
+div.col1 {
+    display: inline-block;
+    margin-right: 10%
+}
+
+div.col2 {
+    float: right;
+}
+
+p.ingred {
+    text-align: center;
+    border:1px solid lightgray;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0px
+   
+}
+
+table.instr p.number {
+background-color: #6c8290;
+color:white;
+font-size: 14px;
+font-weight: bold;
+width: 25px;
+text-align: center;
+height: 25px;
+padding-top:4px;
+box-sizing: border-box;
+border-radius: 50%;
+margin:0px;
+}
+
+table.instr td.instr_step {
+    padding-left:10px;
+    font-size: 14px;
+    padding-bottom: 10px
+}
+
+table.instr td {
+    vertical-align: top;
+}
+
+table.instr tr{
+    height: 40px; 
+    /* in table min height doesn't work, but height will act in this way instead */
+}
+
